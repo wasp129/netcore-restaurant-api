@@ -1,0 +1,44 @@
+body {
+    background-color: $bg-gray-primary;
+    box-sizing: border-box;
+    padding: 50px;
+    font-family: Roboto, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    color: white;
+}
+
+table {
+    background-color: $bg-gray-tertiary;
+
+}
+
+.MuiTable-root {
+    width: 60%;
+
+    .MuiTableHead-root, .MuiTableBody-root {
+
+        .MuiTableRow-root, .MuiTableRow-head {
+
+            .MuiTableCell-head {
+                color: white;
+                font-weight: 600;
+            }
+
+            .MuiTableCell-root {
+                color: white;
+                border-bottom: 1px solid rgba(81, 81, 81, 1);
+            }
+
+        }
+
+    }
+
+}
+
